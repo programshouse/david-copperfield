@@ -26,7 +26,7 @@ body {
 }
 
 .flipbook .hard {
-  background: #8b5e3c !important; /* Rich brown */
+  background: #8b5e3c !important;
   color: #fff;
   font-weight: bold;
   border: none;
@@ -41,7 +41,7 @@ body {
 }
 
 .flipbook .page {
-  background: #f4f1e1; /* Light beige */
+  background: #f4f1e1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +63,7 @@ body {
 }
 
 .book-page {
-  background: #f4f1e1; /* Light beige */
+  background: #f4f1e1; 
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -77,7 +77,7 @@ body {
 .book-page h2 {
   width: 80%;
   text-align: center;
-  background: #6a4f2f; /* Dark brown */
+  background: #6a4f2f; 
   color: white;
   padding: 0.5rem;
   place-self: center;
@@ -86,8 +86,9 @@ body {
 }
 
 .book-page h3 {
-  color: #3e752f; /* Forest green */
+  color: #9F2A17;
   place-self: center;
+  font-size: 1.8rem;
 }
 
 .book-page p {
@@ -96,9 +97,9 @@ body {
 }
 
 .definitions {
-  background: #d9e4c3; /* Soft light green */
+  background: #3b4f8879; 
   padding: 1rem;
-  border-left: 4px solid #6a8b3b; /* Darker green */
+  border-left: 4px solid #0C3199;
 }
 
 .tts {
@@ -120,7 +121,7 @@ body {
 }
 
 #toggle-tts {
-  background: #6a4f2f; /* Dark brown */
+  background: #6a4f2f; 
   color: white;
   border: none;
   padding: 0.6rem 1.2rem;
@@ -131,13 +132,13 @@ body {
 }
 
 #toggle-tts:hover {
-  background-color: #4d3b28; /* Slightly darker brown */
+  background-color: #4d3b28; 
 }
 
 .speaking {
   background-color: #eef5ff;
   font-weight: bold;
-  border-left: 4px solid #38761d; /* Dark green */
+  border-left: 4px solid #38761d; 
   padding-left: 0.5rem;
 }
 
@@ -152,7 +153,7 @@ body {
 }
 
 .page-number {
-  background: #8b5e3c; /* Rich brown */
+  background: #8b5e3c; 
   color: white;
   border-radius: 50%;
   width: 22px;
@@ -171,7 +172,7 @@ body {
 
 .bio-heading h3 {
   font-size: 1.5rem;
-  background: #6a4f2f; /* Deep brown */
+  background: #6a4f2f; 
   color: white;
   padding: 0.3rem 1rem;
   border-radius: 0 15px 15px 0;
@@ -179,14 +180,14 @@ body {
 }
 
 .red-title {
-  color: #8b5e3c; /* Rich brown */
+  color: #8b5e3c; 
   font-weight: bold;
 }
 
 .icon-circle {
   width: 36px;
   height: 36px;
-  background: #3e752f; /* Forest green */
+  background: #3e752f; 
   color: white;
   font-size: 1.2rem;
   display: flex;
@@ -201,7 +202,7 @@ body {
 }
 
 .scene {
-  color: #38761d; /* Dark green */
+  color: #38761d;
   text-align: center;
 }
 
@@ -239,8 +240,7 @@ body {
   top: 10px;
   left: 10px;
   z-index: 2000;
-  background-color: #6a4f2f; /* Dark brown */
-  color: white;
+  background-color: #6a4f2f; 
   border: none;
   border-radius: 8px;
   padding: 10px 15px;
@@ -251,8 +251,7 @@ body {
 }
 
 #sidebarToggle:hover {
-  background-color: #4d3b28; /* Darker brown */
+  background-color: #4d3b28; 
   transform: scale(1.05);
 }
 
-/* ======================================feature column================================================ */
