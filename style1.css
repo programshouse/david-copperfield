@@ -186,7 +186,40 @@ h4{
   width: 100% !important;
   padding: 0 !important;
 }
-
+.book-page.pg-3 {
+  position: relative;
+  width:100%;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 40px 60px 40px 60px;
+  background-image: linear-gradient(
+      to right,
+      rgba(244, 241, 225, 0.87), 
+      rgba(244, 241, 225, 0) 
+    ),
+    url("assets/images/0.jpg");
+  color: #242424;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-size: 50% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.book-page.pg-5 {
+  position: relative;
+  width:100%;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 40px 60px 40px 60px;
+  background-image:
+    url("assets/images/1.png");
+  color: #242424;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-size: 50% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
 .pg-11 img {
   height: 100%;
   width: 100%;
