@@ -77,16 +77,17 @@ body {
 .book-page h2 {
   width: 80%;
   text-align: center;
-  background: #6a4f2f; 
+  background:#B06036; 
   color: white;
   padding: 0.5rem;
   place-self: center;
   border-radius: 0.5rem;
   margin-right: 120px;
+  margin-bottom: 2rem;
 }
 
 .book-page h3 {
-  color: #9F2A17;
+  color: #1B3095;
   place-self: center;
   font-size: 1.8rem;
 }
@@ -97,9 +98,9 @@ body {
 }
 
 .definitions {
-  background: #3b4f8879; 
+  background: #b060368f; 
   padding: 1rem;
-  border-left: 4px solid #0C3199;
+  border-left: 4px solid #B06036;
 }
 
 .tts {
@@ -240,7 +241,7 @@ body {
   top: 10px;
   left: 10px;
   z-index: 2000;
-  background-color: #6a4f2f; 
+  background-color:#ffac7f; 
   border: none;
   border-radius: 8px;
   padding: 10px 15px;
@@ -251,7 +252,7 @@ body {
 }
 
 #sidebarToggle:hover {
-  background-color: #4d3b28; 
+  background-color: #e98e5d; 
   transform: scale(1.05);
 }
 
